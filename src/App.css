@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+    header {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #191c1ccd;
+      color: #ffffffd2;
+      padding: 10px;
+      font-size: 24px;
+      padding-left: 50px;
+    }
+    .Buttons:hover {
+      border-radius: 10px;
+      height: auto;
+    }
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  transition: 1s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.Product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  width: max-content;
+  text-align: center;
+  gap: 40px;
+  margin: auto;
+}
+
+.Maindiv {
+  width: max-content;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    background-color: #ffffff80;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 2px;
+  background-color: rgb(219, 216, 216);
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+button:hover {
+  background-color: rgb(230, 42, 42);
+}
+h1 {
+  font-style: oblique;
+}
